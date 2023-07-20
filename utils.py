@@ -99,8 +99,3 @@ def visualize(
             close_servo()
             servo_state = False
   return image
-
-# Schleife zum Schließen des Servos alle 10 Sekunden
-while True:
-    close_servo()
-    time.sleep(10)
