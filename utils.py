@@ -28,7 +28,7 @@ pwm = GPIO.PWM(servo_pin, 50)
 # Start the PWM with a duty cycle of 7.5% (close position)
 pwm.start(7.5)
 # Delay for a short time
-time.sleep(0.2)
+time.sleep(0.4)
 pwm.ChangeDutyCycle(0)
 
 def open_servo():
